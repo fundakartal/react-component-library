@@ -1,5 +1,5 @@
 {
-  "name": "uicomponents",
+  "name": "@fundakartal/react-component-library",
   "version": "0.0.1",
   "description": "A react component library",
   "scripts": {
@@ -27,5 +27,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/fundakartal"
+  }
 }
